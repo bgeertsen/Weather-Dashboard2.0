@@ -4,9 +4,14 @@ import './Login.css';
 
 const Login = () => {
     return (
-        <video autoPlay loop muted>
-            <source src={backgroundVid} type="video/mp4"></source>
-        </video>
+        <>
+            <video autoPlay loop muted>
+                <source src={backgroundVid} type="video/mp4"></source>
+            </video>
+            <div className="login-form">
+                <h1>Weather Dashboard</h1>
+            </div>
+        </>
     );
 };
 

@@ -1,8 +1,25 @@
 video {
+    z-index: -1;
     object-fit: cover;
     width: 100vw;
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    width: 66vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    background-color: red;
+}
+
+h1 {
+    z-index: auto;
+    color: black;
+    font-size: 50px;
 }
